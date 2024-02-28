@@ -1,0 +1,212 @@
+{
+    "sSources": [
+        "Arn",
+        "Gou"
+    ],
+    "sCustomers": [
+        "Lon",
+        "Ber",
+        "Maa",
+        "Ams",
+        "Utr",
+        "Hag"
+    ],
+    "sSources_sCustomers": [
+        [
+            "Gou",
+            "Lon"
+        ],
+        [
+            "Arn",
+            "Ber"
+        ],
+        [
+            "Arn",
+            "Maa"
+        ],
+        [
+            "Gou",
+            "Maa"
+        ],
+        [
+            "Arn",
+            "Ams"
+        ],
+        [
+            "Gou",
+            "Ams"
+        ],
+        [
+            "Arn",
+            "Utr"
+        ],
+        [
+            "Gou",
+            "Utr"
+        ],
+        [
+            "Arn",
+            "Hag"
+        ],
+        [
+            "Gou",
+            "Hag"
+        ]
+    ],
+    "pSourceProduction": {
+        "Arn": 550,
+        "Gou": 650
+    },
+    "pCustomerDemand": {
+        "Lon": 125,
+        "Ber": 175,
+        "Maa": 225,
+        "Ams": 250,
+        "Utr": 225,
+        "Hag": 200
+    },
+    "pTransportationCosts": [
+        {
+            "index": [
+                "Gou",
+                "Lon"
+            ],
+            "value": 2.5
+        },
+        {
+            "index": [
+                "Arn",
+                "Ber"
+            ],
+            "value": 2.5
+        },
+        {
+            "index": [
+                "Arn",
+                "Maa"
+            ],
+            "value": 1.6
+        },
+        {
+            "index": [
+                "Gou",
+                "Maa"
+            ],
+            "value": 2
+        },
+        {
+            "index": [
+                "Arn",
+                "Ams"
+            ],
+            "value": 1.4
+        },
+        {
+            "index": [
+                "Gou",
+                "Ams"
+            ],
+            "value": 1
+        },
+        {
+            "index": [
+                "Arn",
+                "Utr"
+            ],
+            "value": 0.8
+        },
+        {
+            "index": [
+                "Gou",
+                "Utr"
+            ],
+            "value": 1
+        },
+        {
+            "index": [
+                "Arn",
+                "Hag"
+            ],
+            "value": 1.4
+        },
+        {
+            "index": [
+                "Gou",
+                "Hag"
+            ],
+            "value": 0.8
+        }
+    ],
+	"pFixedTransportation": [
+        {
+            "index": [
+                "Gou",
+                "Lon"
+            ],
+            "value": 0
+        },
+        {
+            "index": [
+                "Arn",
+                "Ber"
+            ],
+            "value": 0
+        },
+        {
+            "index": [
+                "Arn",
+                "Maa"
+            ],
+            "value": 0
+        },
+        {
+            "index": [
+                "Gou",
+                "Maa"
+            ],
+            "value": 0
+        },
+        {
+            "index": [
+                "Arn",
+                "Ams"
+            ],
+            "value": 1
+        },
+        {
+            "index": [
+                "Gou",
+                "Ams"
+            ],
+            "value": 0
+        },
+        {
+            "index": [
+                "Arn",
+                "Utr"
+            ],
+            "value": 0
+        },
+        {
+            "index": [
+                "Gou",
+                "Utr"
+            ],
+            "value": 0
+        },
+        {
+            "index": [
+                "Arn",
+                "Hag"
+            ],
+            "value": 0
+        },
+        {
+            "index": [
+                "Gou",
+                "Hag"
+            ],
+            "value": 0
+        }
+    ]
+}
