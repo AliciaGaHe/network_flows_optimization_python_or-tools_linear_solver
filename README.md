@@ -6,7 +6,7 @@ We can find the original limits of production/supply for each source, the demand
 
 In main.py, we can find the problem formulation, the way to solve it using ‘cbc’ solver and a way to print the solution and the sensibility analysis for this solution (shadow prices and reduced costs).
 
-We have four data file in 'data' folder that we can use to try the code:
+We have four data files in 'data' folder that we can use to try the code:
 * data_0.json. This is the base case.
 * data_1.json. Shadow price interpretation for source constraints. Using base case, we move one ton of supply capacity from Gouda to Arnhem and the objective function improves in 0.2 euros (shadow price for Arnhem in the base case).
 * data_2.json. Shadow price interpretation for customer constraints - case 1. Using the base case, we increase the demand in London in one ton and we increase one ton of supply capacity in Gouda (Gouda is the only source for London). Then the objective function gets worse in 2.5 euros (shadow price for London in the base case).
